@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "@babel/react", 
+    "@babel/typescript", 
+    "@babel/env"
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "regenerator": true
+      }
+    ]
+  ]
+}
